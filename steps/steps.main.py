@@ -25,4 +25,4 @@ def step_then_product_in_inventory(context, registro):
     producto = buscarProductoPorRegistro(context.inventario, int(registro))
     assert producto is not None
 
-# Añadir más pasos para los otros escenarios según sea necesario
+

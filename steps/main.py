@@ -1,6 +1,6 @@
 import os
 import getpass
-from inventory import Producto, agregarProducto, buscarProductoPorRegistro, reducirCantidadProducto, mostrarInventario
+from steps.inventory import Producto, agregarProducto, buscarProductoPorRegistro, reducirCantidadProducto, mostrarInventario
 
 def mostrarPantallaInicio():
     os.system('cls' if os.name == 'nt' else 'clear')

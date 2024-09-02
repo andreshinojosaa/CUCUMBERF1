@@ -1,11 +1,11 @@
 from behave import given, when, then
-from main import Producto, reducirCantidadProductoEnInventario, agregarCantidadProductoEnInventario
+from steps.main import Producto, reducirCantidadProductoEnInventario, agregarCantidadProductoEnInventario
 
-@given('que el inventario está vacío')
+@given('que el inventario está vacíioo')
 def step_given_empty_inventory(context):
     context.inventario = []
 
-@given('que el inventario contiene un producto con registro {registro} y cantidad {cantidad}')
+@given('que el inventario contiene un producto con registris{registro} y cantidad {cantidad}')
 def step_given_inventory_contains_product_with_registration_and_quantity(context, registro, cantidad):
     registro = int(registro)
     cantidad = int(cantidad)

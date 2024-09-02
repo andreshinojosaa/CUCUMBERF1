@@ -1,5 +1,5 @@
 from behave import given, when, then
-from main import Producto, mostrarInventarioDeInventario
+from steps.main import Producto, mostrarInventarioDeInventario
 
 @given('que el inventario está vacío')
 def step_given_empty_inventory(context):

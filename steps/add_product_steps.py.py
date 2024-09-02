@@ -1,7 +1,7 @@
 from behave import given, when, then
-from main import Producto, agregarProducto
+from steps.main import Producto, agregarProducto
 
-@given('que el inventario contiene un producto con registro {registro}')
+@given('que el inventario contiene un producto m{registro}')
 def step_given_inventory_contains_product_with_registration(context, registro):
     registro = int(registro)
     producto = Producto(registro=registro, nombre="ProductoEjemplo", cantidad=10, costo=100.0)

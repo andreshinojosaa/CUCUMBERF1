@@ -3,7 +3,7 @@ import io
 import sys
 
 # Suponiendo que la función `iniciarSesion` está en el archivo `main.py`
-from main import iniciarSesion  
+from steps.main import iniciarSesion  
 
 @given('que el usuario ingresa el nombre de usuario "{usuario}" y la contraseña "{contrasena}"')
 def step_given_user_credentials(context, usuario, contrasena):
